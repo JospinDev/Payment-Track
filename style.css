@@ -1,0 +1,110 @@
+/* Neumorphic styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #f0f0f0;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px #d9d9d9, -10px -10px 20px #ffffff;
+    padding: 40px;
+    width: 90%;
+    max-width: 800px;
+}
+
+.app-container {
+    background-color: #f0f0f0;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px #d9d9d9, -10px -10px 20px #ffffff;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #f0f0f0;
+    box-shadow: inset 5px 5px 10px #d9d9d9, inset -5px -5px 10px #ffffff;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #f0f0f0;
+    box-shadow: 5px 5px 10px #d9d9d9, -5px -5px 10px #ffffff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    box-shadow: 2px 2px 5px #d9d9d9, -2px -2px 5px #ffffff;
+}
+
+.person-history table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.person-history th, .person-history td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.person-history th {
+    background-color: #f0f0f0;
+    box-shadow: 5px 5px 10px #d9d9d9, -5px -5px 10px #ffffff;
+}
+
+.person-history td {
+    background-color: #f0f0f0;
+    box-shadow: inset 5px 5px 10px #d9d9d9, inset -5px -5px 10px #ffffff;
+}
+
+.person-history .actions {
+    display: flex;
+    justify-content: center;
+}
+
+.person-history .actions button {
+    margin: 0 5px;
+}
+
+footer {
+    margin-top: auto;
+    text-align: center;
+    color: #888;
+    font-size: 14px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+
+    .app-container {
+        padding: 20px;
+    }
+}
